@@ -1,0 +1,13 @@
+.footer{
+    height: 100px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    background-color: aqua;
+    
+}
+.footer li{
+    list-style:none;
+    margin: 0 10px;
+}

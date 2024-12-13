@@ -1,0 +1,34 @@
+.header{
+  top: 0;
+  left: 0;
+    background-color: #080808; /* Blue background */
+    color: white;             /* White text */
+    padding: 20px;            /* Space inside the header */
+    display: flex;            /* Flexbox for layout */
+    justify-content: space-between; /* Space between logo and nav */
+    align-items: center;
+    
+     
+}
+.header nav ul {
+    list-style: none;         /* Remove default bullets */
+    margin: 0;
+    padding: 0;
+    display: flex;            /* Arrange items horizontally */
+    gap: 20px;                /* Space between nav items */
+  }
+
+   
+  .header  nav ul li a {
+    text-decoration: none;    /* Remove underline */
+    color: white;             /* White text for links */
+    font-size: 18px;
+  }
+
+  .header nav ul li a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+.header div{
+    font-size: 24px;          /* Bigger text for the logo */
+    font-weight: bold;
+}

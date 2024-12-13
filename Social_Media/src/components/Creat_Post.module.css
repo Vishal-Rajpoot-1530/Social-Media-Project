@@ -1,0 +1,51 @@
+.creatpost{
+    margin: 10px  ; 
+    width: 30%; 
+    height: 90%;
+    justify-content: center;
+    background-color: aquamarine;
+    padding: 0px;
+    align-content: center;
+    border-radius: 7px;
+    box-shadow: 1px 8px 30px ;
+}
+@media (max-width: 600px) {
+    .creatpost {
+      width: 80%;
+      height: 80%;
+    }
+  }
+.creatpost * {
+    display: block;
+    margin: 10px;
+    width: 90%;
+}
+
+.creatpost button{
+    background-color: rgb(49, 236, 42);
+    font-size: larger;
+    border: none;
+    border-radius: 7px;
+     margin-top: 15px;
+}
+.creatpost h3{
+    font-size: 40px;
+     
+    margin-bottom: 50px;
+}
+.creatpost form{
+    font-size: larger;
+    padding-left: 3%; 
+    padding-right: 5%; 
+    text-align: left;
+     
+}
+.creatpost form input:hover{
+    transform: scale(1.05);
+}
+.creatpost form   textarea:hover{
+    transform: scale(1.05);
+}
+.creatpost  button:hover{
+    transform: scale(1.05);
+}
